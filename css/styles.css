@@ -1,0 +1,116 @@
+body{
+    background-color:#f5f0e7;
+    width: 100%;
+}
+img{
+    height: 300px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.slider-container{
+    width:100%;
+    background-color: #1a51a0;
+}
+.slider{
+    height: 300px;
+}
+.youtube-container{
+    width: 100%;
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.modal-button-container{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.form-container{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.oreo-list-container{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+label, input {
+    display: block;
+  }
+.necessary{
+    color: crimson;
+}
+.submit-button{
+    width:100px;
+    height: 40px;
+    border: transparent 1px;
+    border-radius: 10px;
+    background-color: #1a51a0;
+    color: white;
+    font-size: medium;
+}
+.submit-container{
+    width:100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* モーダルCSS */
+.modalArea {
+    display: none;
+    position: fixed;
+    z-index: 10; /*サイトによってここの数値は調整 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .modalBg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(100, 100, 100, 0.8);
+  }
+  
+  .modalWrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 70%;
+    max-width: 500px;
+    padding: 10px 30px;
+    background-color: #f5f0e7;
+  }
+  
+  .closeModal {
+    width:100px;
+    height: 40px;
+    border: transparent 1px;
+    border-radius: 10px;
+    background-color: #1a51a0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  #openModal {
+    width:150px;
+    height: 50px;
+    border: transparent 1px;
+    border-radius: 10px;
+    background-color: #1a51a0;
+    color: white;
+    margin-top: 100px;
+    font-size: medium;
+  }
